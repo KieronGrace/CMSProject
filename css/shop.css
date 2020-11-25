@@ -1,0 +1,46 @@
+/* Main shop styles */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#productContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display:block;
+  max-width: 20%;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+/* product detail styles */

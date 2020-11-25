@@ -1,0 +1,233 @@
+/* font imports */
+@font-face {
+  font-family:"Dancing Script" ;
+  src:url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+
+/* header and site-wide page styles */
+body {
+  background-color:  #c8b8d1;
+  color: #451132;
+  font-family: Lato, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30pt;
+  float: left;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 24pt;
+  max-width: 60%;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  max-width: 60%;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.mainFig {
+  display: block;
+  min-width: 640px;
+  width: 50%;
+  min-height: 426px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondaryFig {
+  width: 30%;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 0 25px;
+}
+
+/* loginBlock styles */
+#loginBlock {
+  max-width: 400px;
+  float: right;
+  padding-right: 5px;
+  margin-right: 5px;
+  text-align: right;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+#loginBlock p {
+  display: inline;
+  padding: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+#cartIcon {
+  width: 50px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/* menu styles */
+nav ul {
+  clear: both;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #451132;
+  border-style: solid;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #c8b8d1;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #c8b8d1;
+  color: #451132;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.siteContent {
+  clear: both;
+}
+
+.error {
+  color: red;
+}
+
+#admin_menu {
+  width: 40%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#admin_menu a:hover {
+  color: white;
+}
+
+
+/* footer and last modified styles */
+footer{
+  clear: both;
+  margin-top: 100px;
+  display: block;
+  font-size: 10pt;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  border-top: 1pt solid black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer ul {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  visibility: visible;
+}
+
+#lastMod {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+}
+
+.validIcon {
+  clear: both;
+  padding: 5px;
+}
+
+#validIconP {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.validIcon img {
+  max-width: 88px;
+  min-width: 88px;
+  max-height: 31px;
+  min-height: 31px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.social_icons {
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.social_icons {
+  justify-content: space-between;
+}
